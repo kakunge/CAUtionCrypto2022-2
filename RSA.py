@@ -40,7 +40,7 @@ def dec(c):
     return m
 
 #key Gen
-p = getPrime(30)
+p = getPrime(28)
 q = next_prime(p)
 N = p * q
 phiN = (p-1) * (q-1)
